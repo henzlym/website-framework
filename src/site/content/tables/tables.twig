@@ -1,0 +1,61 @@
+<div class="table-responsive">
+	<table class="table">
+		<thead class="text-uppercase fs-meta">
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Title</th>
+				<th scope="col">Artist</th>
+				<th scope="col">Album</th>
+				<th scope="col">Date Added</th>
+				<th scope="col">Time</th>
+				<th scope="col"></th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for item in rows.items %}
+				<tr valign="middle">
+					<th class="small" scope="row">{{ loop.index }}</th>
+					<td class="py-0">
+						{% render "@component-list-item--album" with {
+						image: {
+							src: 'placeholder',
+							size:'thumbnail'
+						},
+						title: item.title,
+					} %}
+					</td>
+					<td>{{ item.artist }}</td>
+					<td>{{ item.album }}</td>
+					<td>{{ item.date_added }}</td>
+					<td>{{ item.time }}</td>
+					<td>
+						<div class="album-item--actions d-flex align-items-center">
+							<div class="albumn-item--action">
+								{% render "@component-button--action" with {
+									icon: 'three-dots',
+									title: '',
+									icon_classes:'w-icon-sm aspect-ratio-square'
+								} %}
+							</div>
+							<div class="albumn-item--action">
+								{% render "@component-button--action" with {
+									icon: 'plus',
+									title: '',
+									icon_classes:'w-icon-sm aspect-ratio-square'
+								} %}
+							</div>
+							<div class="albumn-item--action">
+								{% render "@component-button--action" with {
+									icon: 'heart',
+									title: '',
+									icon_classes:'w-icon-sm aspect-ratio-square'
+								} %}
+							</div>
+						</div>
+					</td>
+				</tr>
+			{% endfor %}
+
+		</tbody>
+	</table>
+</div>

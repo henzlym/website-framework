@@ -1,0 +1,19 @@
+{# 
+	{% render "@component-hero" with {
+		title: 'Freelance WebDeveloper',
+		description: 'helping businesses increase valuewith creative solutions',
+		actions: []
+	} %}
+#}
+
+<div class="hero {{ classes }}">
+	<h1 class="hero-title">{{ title }}</h1>
+	<p class="hero-description">{{ description }}</p>
+	{% if call_to_actions.items %}
+		<div class="hero-ctas {{ call_to_actions.classes }}">
+			{% for call_to_action in call_to_actions.items %}
+				{% render "@partials-link" with call_to_action %}
+			{% endfor %}
+		</div>
+	{% endif %}
+</div>

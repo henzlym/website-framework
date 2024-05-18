@@ -1,0 +1,21 @@
+{#
+	{% render "@content-image" with {
+		alt: 'image alt text',
+		classes: '',
+		id: null,
+		loading: 'lazy',
+		size: 'medium',
+		src: 'placeholder'
+	} %}
+#}
+{% if src %}
+	{% set size = size|default('medium') %}
+	{% set img = { width:image_sizes[size].width, height:image_sizes[size].height } %}
+	{% if src == "placeholder" %}
+		{% set thumbnail_id = id|default(random(5)) %}
+		{% set src = path ~ '/images/mock/' ~ size ~ '/gradient-' ~ thumbnail_id ~ '-' ~ img.width ~ 'x' ~ img.height ~ '.jpg' %}
+	{% endif %}
+	<img src="{{ src }}" class="img-fluid{% if classes %} {{ classes }}{% endif %}" width="{{ img.width }}" height="{{ img.height == 0 ? 'auto' : img.height }}" alt="{{ alt }}" loading="{{ loading ?: 'lazy' }}">
+{% else  %}
+	<p>No Image src was found...</p>
+{% endif %}

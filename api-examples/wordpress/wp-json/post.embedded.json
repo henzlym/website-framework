@@ -1,0 +1,420 @@
+{
+	"_embedded": {
+		"author": [
+			{
+				"id": 288735,
+				"name": "Chris DeMars",
+				"url": "",
+				"description": "Chris DeMars is a Senior Developer Advocate @ DigitalOcean. He has over 20 years of technical experience and speaks all over the world on web accessibility, feature flags, and CSS. For his community contributions, he holds awards as a Microsoft MVP and Progress Champion. Chris advocates, teaches, and speaks on web accessibility as well as modern CSS; building applications with both at the forefront. When he is not working on making the web great and accessible you can find him writing blog posts, rating Detroit Style pizza, and watching Horror movies.",
+				"link": "https://css-tricks.com/author/chrisdemars/",
+				"slug": "chrisdemars",
+				"avatar_urls": {
+					"24": "https://secure.gravatar.com/avatar/b979650b590b497641c450889d3e3b92?s=24&d=retro&r=pg",
+					"48": "https://secure.gravatar.com/avatar/b979650b590b497641c450889d3e3b92?s=48&d=retro&r=pg",
+					"96": "https://secure.gravatar.com/avatar/b979650b590b497641c450889d3e3b92?s=96&d=retro&r=pg"
+				},
+				"acf": [],
+				"_links": {
+					"self": [
+						{
+							"href": "https://css-tricks.com/wp-json/wp/v2/users/288735"
+						}
+					],
+					"collection": [
+						{
+							"href": "https://css-tricks.com/wp-json/wp/v2/users"
+						}
+					]
+				}
+			}
+		],
+		"wp:featuredmedia": [
+			{
+				"id": 377614,
+				"date": "2024-03-22T13:43:42",
+				"slug": "focus-within-form-accessibility",
+				"type": "attachment",
+				"link": "https://css-tricks.com/accessible-forms-with-pseudo-classes/focus-within-form-accessibility/",
+				"title": {
+					"rendered": "focus-within-form-accessibility"
+				},
+				"author": 288734,
+				"acf": [],
+				"caption": {
+					"rendered": ""
+				},
+				"alt_text": "Web Form Accessibility with focus-within",
+				"media_type": "image",
+				"mime_type": "image/png",
+				"media_details": {
+					"width": 1200,
+					"height": 600,
+					"file": "2024/03/focus-within-form-accessibility.png",
+					"filesize": 358636,
+					"sizes": {
+						"medium": {
+							"file": "focus-within-form-accessibility-300x150.png",
+							"width": 300,
+							"height": 150,
+							"filesize": 22258,
+							"mime_type": "image/png",
+							"source_url": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/03/focus-within-form-accessibility.png?fit=300%2C150&ssl=1"
+						},
+						"large": {
+							"file": "focus-within-form-accessibility-1024x512.png",
+							"width": 1024,
+							"height": 512,
+							"filesize": 275603,
+							"mime_type": "image/png",
+							"source_url": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/03/focus-within-form-accessibility.png?fit=1024%2C512&ssl=1"
+						},
+						"thumbnail": {
+							"file": "focus-within-form-accessibility-150x150.png",
+							"width": 150,
+							"height": 150,
+							"filesize": 18978,
+							"mime_type": "image/png",
+							"source_url": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/03/focus-within-form-accessibility.png?resize=150%2C150&ssl=1"
+						},
+						"medium_large": {
+							"file": "focus-within-form-accessibility-768x384.png",
+							"width": 768,
+							"height": 384,
+							"filesize": 152743,
+							"mime_type": "image/png",
+							"source_url": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/03/focus-within-form-accessibility.png?fit=768%2C384&ssl=1"
+						},
+						"full": {
+							"file": "focus-within-form-accessibility.png?fit=1200%2C600&ssl=1",
+							"width": 1200,
+							"height": 600,
+							"mime_type": "image/png",
+							"source_url": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/03/focus-within-form-accessibility.png?fit=1200%2C600&ssl=1"
+						}
+					},
+					"image_meta": {
+						"aperture": "0",
+						"credit": "",
+						"camera": "",
+						"caption": "",
+						"created_timestamp": "0",
+						"copyright": "",
+						"focal_length": "0",
+						"iso": "0",
+						"shutter_speed": "0",
+						"title": "",
+						"orientation": "0",
+						"keywords": []
+					}
+				},
+				"source_url": "https://css-tricks.com/wp-content/uploads/2024/03/focus-within-form-accessibility.png",
+				"_links": {
+					"self": [
+						{
+							"href": "https://css-tricks.com/wp-json/wp/v2/media/377614"
+						}
+					],
+					"collection": [
+						{
+							"href": "https://css-tricks.com/wp-json/wp/v2/media"
+						}
+					],
+					"about": [
+						{
+							"href": "https://css-tricks.com/wp-json/wp/v2/types/attachment"
+						}
+					],
+					"author": [
+						{
+							"embeddable": true,
+							"href": "https://css-tricks.com/wp-json/wp/v2/users/288734"
+						}
+					],
+					"replies": [
+						{
+							"embeddable": true,
+							"href": "https://css-tricks.com/wp-json/wp/v2/comments?post=377614"
+						}
+					]
+				}
+			}
+		],
+		"wp:term": [
+			[
+				{
+					"id": 4,
+					"link": "https://css-tricks.com/category/article/",
+					"name": "Article",
+					"slug": "article",
+					"taxonomy": "category",
+					"acf": [],
+					"_links": {
+						"self": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/categories/4"
+							}
+						],
+						"collection": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/categories"
+							}
+						],
+						"about": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/taxonomies/category"
+							}
+						],
+						"wp:post_type": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/posts?categories=4"
+							}
+						],
+						"curies": [
+							{
+								"name": "wp",
+								"href": "https://api.w.org/{rel}",
+								"templated": true
+							}
+						]
+					}
+				}
+			],
+			[
+				{
+					"id": 466,
+					"link": "https://css-tricks.com/tag/accessibility/",
+					"name": "accessibility",
+					"slug": "accessibility",
+					"taxonomy": "post_tag",
+					"_links": {
+						"self": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/tags/466"
+							}
+						],
+						"collection": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/tags"
+							}
+						],
+						"about": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/taxonomies/post_tag"
+							}
+						],
+						"wp:post_type": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/posts?tags=466"
+							},
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/pages?tags=466"
+							}
+						],
+						"curies": [
+							{
+								"name": "wp",
+								"href": "https://api.w.org/{rel}",
+								"templated": true
+							}
+						]
+					}
+				},
+				{
+					"id": 478,
+					"link": "https://css-tricks.com/tag/css/",
+					"name": "CSS",
+					"slug": "css",
+					"taxonomy": "post_tag",
+					"_links": {
+						"self": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/tags/478"
+							}
+						],
+						"collection": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/tags"
+							}
+						],
+						"about": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/taxonomies/post_tag"
+							}
+						],
+						"wp:post_type": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/posts?tags=478"
+							},
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/pages?tags=478"
+							}
+						],
+						"curies": [
+							{
+								"name": "wp",
+								"href": "https://api.w.org/{rel}",
+								"templated": true
+							}
+						]
+					}
+				},
+				{
+					"id": 1262,
+					"link": "https://css-tricks.com/tag/focus/",
+					"name": "focus",
+					"slug": "focus",
+					"taxonomy": "post_tag",
+					"_links": {
+						"self": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/tags/1262"
+							}
+						],
+						"collection": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/tags"
+							}
+						],
+						"about": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/taxonomies/post_tag"
+							}
+						],
+						"wp:post_type": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/posts?tags=1262"
+							},
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/pages?tags=1262"
+							}
+						],
+						"curies": [
+							{
+								"name": "wp",
+								"href": "https://api.w.org/{rel}",
+								"templated": true
+							}
+						]
+					}
+				},
+				{
+					"id": 595,
+					"link": "https://css-tricks.com/tag/forms/",
+					"name": "forms",
+					"slug": "forms",
+					"taxonomy": "post_tag",
+					"_links": {
+						"self": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/tags/595"
+							}
+						],
+						"collection": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/tags"
+							}
+						],
+						"about": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/taxonomies/post_tag"
+							}
+						],
+						"wp:post_type": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/posts?tags=595"
+							},
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/pages?tags=595"
+							}
+						],
+						"curies": [
+							{
+								"name": "wp",
+								"href": "https://api.w.org/{rel}",
+								"templated": true
+							}
+						]
+					}
+				},
+				{
+					"id": 479,
+					"link": "https://css-tricks.com/tag/html-2/",
+					"name": "HTML",
+					"slug": "html-2",
+					"taxonomy": "post_tag",
+					"_links": {
+						"self": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/tags/479"
+							}
+						],
+						"collection": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/tags"
+							}
+						],
+						"about": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/taxonomies/post_tag"
+							}
+						],
+						"wp:post_type": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/posts?tags=479"
+							},
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/pages?tags=479"
+							}
+						],
+						"curies": [
+							{
+								"name": "wp",
+								"href": "https://api.w.org/{rel}",
+								"templated": true
+							}
+						]
+					}
+				},
+				{
+					"id": 731,
+					"link": "https://css-tricks.com/tag/semantics/",
+					"name": "semantics",
+					"slug": "semantics",
+					"taxonomy": "post_tag",
+					"_links": {
+						"self": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/tags/731"
+							}
+						],
+						"collection": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/tags"
+							}
+						],
+						"about": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/taxonomies/post_tag"
+							}
+						],
+						"wp:post_type": [
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/posts?tags=731"
+							},
+							{
+								"href": "https://css-tricks.com/wp-json/wp/v2/pages?tags=731"
+							}
+						],
+						"curies": [
+							{
+								"name": "wp",
+								"href": "https://api.w.org/{rel}",
+								"templated": true
+							}
+						]
+					}
+				}
+			]
+		]
+	}
+}

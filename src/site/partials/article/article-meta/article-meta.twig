@@ -1,0 +1,41 @@
+{# 
+	{% render "@components-article-meta" with {
+		author: {
+			name: 'John Doe',
+			prefix: 'By',
+			url: '#'
+		},
+		date: {
+			published: 'January 1, 2021',
+			updated: 'January 1, 2021'
+		}
+		actions:{
+			items: ['Action', 'Another action', 'Something else here'],
+			title: 'Dropdown button'
+		}
+	} %} 
+#}
+<div class="post-meta d-flex flex-column row-gap-4 justify-content-center">
+	<div class="byline d-flex flex-column row-gap-1">
+		{% if author %}
+			<span class="author">
+				<span class="prefix">By</span>
+				{% if author.url %}
+					<a href="{{ author.url }}">{{ author.name }}</a>
+				{% else %}
+					{{ author.name }}
+				{% endif %}
+
+			</span>
+		{% endif %}
+
+		<span class="date text-secondary small">
+			{% if date.updated %}
+				<span class="updated">Updated
+					{{ date.updated }}</span>
+			{% endif %}
+			<span class="published">Published
+				{{ date.published }}</span>
+		</span>
+	</div>
+</div>

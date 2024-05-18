@@ -1,0 +1,105 @@
+.archive--magazine {
+	--title-color: var(--bs-emphasis-color);
+
+	&.theme-blue {
+		--primary-color: #390efb;
+		--primary-low-color: #050119;
+		--primary-high-color: #6240fc;
+		--primary-bg-color: #fcfcfd;
+		--secondary-color: #d0fb0e;
+		--secondary-high-color: #dffc59;
+	}
+	&.theme-purple {
+		--primary-color: #8306f5;
+		--primary-low-color: #0d0018;
+		--primary-high-color: #8f1bf9;
+		--primary-bg-color: #fcfcfd;
+		--secondary-color: #78f506;
+		--secondary-high-color: #78f506;
+	}
+	&.theme-green {
+		--primary-color: #009b3a;
+		--primary-low-color: #000f05;
+		--primary-high-color: #00b544;
+		--primary-bg-color: #fcfcfc;
+		--secondary-color: #fed100;
+		--secondary-high-color: #ffdf4c;
+	}
+
+	&[data-bs-theme='dark'] {
+		--bs-body-bg: var(--primary-low-color);
+		--bs-body-color: #fff;
+		--title-color: var(--title-color);
+	}
+
+	a {
+		color: var(--primary-high-color);
+	}
+	a[rel='tag'],
+	a[rel='author'] {
+		text-decoration: none;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: 'Oswald', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	h1 {
+		color: var(--title-color);
+	}
+	img {
+		border-radius: var(--bs-border-radius);
+	}
+	a[rel='tag'],
+	.author,
+	.date {
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+	.list-group {
+		--#{$prefix}list-group-border-width: 0;
+		--#{$prefix}list-group-item-padding-x: 0;
+	}
+	.card {
+		--#{$prefix}card-spacer-x: 0;
+		--#{$prefix}card-title-spacer-y: 0.5rem;
+		--#{$prefix}card-title-color: var(--bs-white);
+		--#{$prefix}card-border-width: 0;
+		--#{$prefix}card-cap-bg: transparent;
+		--#{$prefix}card-color: var(--bs-light-text-emphasis);
+
+		a[rel='tag'] {
+			display: block;
+			margin-bottom: 0.5rem;
+		}
+
+		@include media-breakpoint-up(sm) {
+			--#{$prefix}card-spacer-y: 0;
+			--#{$prefix}card-spacer-x: #{$card-spacer-x};
+		}
+		@include media-breakpoint-up(md) {
+			a[rel='tag'] {
+				margin-bottom: 1rem;
+			}
+		}
+		@include media-breakpoint-up(lg) {
+		}
+		@include media-breakpoint-up(xl) {
+		}
+		@include media-breakpoint-up(xxl) {
+		}
+	}
+	a[rel='tag'],
+	.author {
+		font-size: 0.75rem;
+	}
+	.nav {
+		--#{$prefix}nav-link-font-size: 0.85rem;
+		--#{$prefix}nav-link-padding-x: 0.5rem;
+	}
+}

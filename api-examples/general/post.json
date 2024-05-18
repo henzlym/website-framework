@@ -1,0 +1,29 @@
+[
+	{
+	   "ID":1,
+	   "post_author":"John Doe",
+	   "post_date":"2024-04-11",
+	   "post_content":"This is the post content",
+	   "post_title":"Sample Post Title",
+	   "post_excerpt":"This is a short excerpt of the post content.",
+	   "post_status":"publish",
+	   "post_type":"post",
+	   "post_categories":[
+		  "Category 1",
+		  "Category 2"
+	   ],
+	   "post_tags":[
+		  "Tag 1",
+		  "Tag 2"
+	   ],
+	   "post_meta":{
+		  "int_meta":123,
+		  "array_meta":[
+			 "value1",
+			 "value2"
+		  ],
+		  "string_meta":"Some metadata",
+		  "null_meta":null
+	   }
+	}
+ ]

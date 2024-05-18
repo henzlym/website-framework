@@ -1,0 +1,18 @@
+{#
+	{% include "@partial-button" with {
+		title: "Button Text",
+		icon: "",
+		aria_label: ""
+	} %}
+#}
+
+<button type="button" class="btn btn-{{ modifier }}" aria-label="{{ aria_label }}">
+	<span class="btn_button_inner">
+		<span class="btn_button_label">{{ title }}</span>
+		{% if icon %}
+			<span class="btn_button_icon" aria-hidden="true">
+				{{ icon(icon) }}
+			</span>
+		{% endif %}
+	</span>
+</button>

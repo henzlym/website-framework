@@ -1,0 +1,41 @@
+{# 
+	{% render "@content-figure" with {
+		caption:'',
+		classes:'',
+		image:{
+			alt: 'Ab nulla officiis eligendi omnis iste at distinctio vel amet',
+			classes: '',
+			id: null,
+			loading: 'lazy',
+			size: 'medium',
+			sources: {
+				'1024px': image_sizes['large'],
+				'960px': image_sizes['medium_large'],
+				'720px': image_sizes['medium'],
+				'540px': image_sizes['small'],
+				'360px': image_sizes['thumbnail']
+			},
+			src: 'placeholder'
+		},
+	} %} 
+#}
+<figure class="figure {{ classes }}">
+	<div class="figure-img {{ image_class }}">
+		{% render '@content-picture' with {
+			alt: image.alt,
+			classes:image.classes,
+			id:image.id,
+			loading: image.loading,
+			size: image.size,
+			sources: image.sources,
+			src: image.src
+		} %}
+	</div>
+	{% if caption %}
+		<figcaption class="figure-caption">{{ caption }}</figcaption>
+	{% else %}
+		{% if image.caption %}
+			<figcaption class="figure-caption">{{ image.caption }}</figcaption>
+		{% endif %}
+	{% endif %}
+</figure>

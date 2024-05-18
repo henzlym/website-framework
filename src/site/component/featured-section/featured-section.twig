@@ -1,0 +1,51 @@
+{# 
+	{% render "@component-card-group" with {
+		classes:'',
+		items:items,
+		title:''
+	} %}
+#}
+<div class="featured-section-container">
+	<div
+		class="row">
+		<!-- Left Side Articles -->
+		<div
+			class="col-md-3">
+			<!-- Article 1 -->
+			<div class="mb-3">
+				{% render "@component-card--headline" %}
+			</div>
+			<!-- Article 2 -->
+			<div class="mb-3">
+				{% render "@component-card--headline" %}
+			</div>
+			<!-- Article 2 -->
+			<div class="mb-3">
+				{% render "@component-card--headline" %}
+			</div>
+			<!-- Article 2 -->
+			<div class="mb-3">
+				{% render "@component-card--headline" %}
+			</div>
+		</div>
+
+		<!-- Center Large Article -->
+		<div class="col-md-6">
+			{% render "@component-card--image" %}
+		</div>
+
+		<!-- Right Side Articles -->
+		<div
+			class="col-md-3">
+			<!-- Article 3 -->
+			<div class="mb-3">
+				{% render "@component-card--image" %}
+			</div>
+			<!-- Article 4 -->
+			<div>
+				{% render "@component-card--image" %}
+			</div>
+			<!-- More articles as needed -->
+		</div>
+	</div>
+</div>

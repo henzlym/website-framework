@@ -1,0 +1,22 @@
+{#
+	{% render '@partials-link--button' with {
+		aria_label: '',
+		classes:'',
+		icon: '',
+		icon_height:16,
+		icon_width:16,
+		modifier:'',
+		title: 'Button Text',
+		url: '#',
+		wrapper_classes:''
+	} %}
+#}
+
+
+<a href="{{ url ?: '#' }}" class="link_item btn {% if classes %} {{ classes }}{% endif %}" {% if aria_label %} aria-label="{{ aria_label }}" {% endif %}>
+	<span class="link_item_wrapper{% if wrapper_classes %} {{ wrapper_classes }}{% endif %} icon-link">
+		{% if title %}
+			<span class="link_item_label">{{ title }}</span>
+		{% endif %}
+	</span>
+</a>

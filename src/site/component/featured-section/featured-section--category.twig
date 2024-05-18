@@ -1,0 +1,45 @@
+{# 
+	{% render "@component-card-group" with {
+		classes:'',
+		items:items,
+		title:''
+	} %}
+#}
+<div class="featured-section-container">
+	{% if title %}
+		<div class="row">
+			<div class="col-12">
+				<h2>{{ title }}</h2>
+			</div>
+		</div>
+	{% endif %}
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="mb-3">
+				{% render "@component-card--image" with {
+					item: {
+						image: {
+							classes:'aspect-ratio-md-fullscreen'
+						},
+					}
+				} %}
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="row">
+				<div class="col-12 col-sm-6">
+					{% render "@component-card--image" %}
+				</div>
+				<div class="col-12 col-sm-6">
+					{% render "@component-card--image" %}
+				</div>
+				<div class="col-12 col-sm-6">
+					{% render "@component-card--image" %}
+				</div>
+				<div class="col-12 col-sm-6">
+					{% render "@component-card--image" %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,15 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Google Fonts -->
+{# <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+{% set requested_fonts = ['PT Sans', 'Bebas Neue', 'Ubuntu','Bodoni Moda', 'Lato', 'Libre Franklin', 'Open Sans'] %}
+{{ getGoogleFontLink(requested_fonts)}} #}
+{% render "@partials-fonts" %}
+<!-- END: Google Fonts -->
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'> {% for style in config.assets.styles %}
+	<link rel="stylesheet" href="{{ style }}" type="text/css">
+{% endfor %}
+<title>{{ _target.label }}
+	| My Component Library</title>

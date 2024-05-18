@@ -1,0 +1,29 @@
+{#
+	{% render '@partials-link' with {
+		aria_label: '',
+		classes:'',
+		icon: '',
+		icon_height:16,
+		icon_width:16,
+		modifier:'',
+		title: 'Button Text',
+		url: '#',
+		wrapper_classes:''
+	} %}
+#}
+
+
+<a href="{{ url ?: '#' }}" class="link_item{% if classes %} {{ classes }}{% endif %}" {% if aria_label %} aria-label="{{ aria_label }}" {% endif %} {% if rel %} rel="{{ rel }}" {% endif %}>
+	<span class="link_item_wrapper{% if wrapper_classes %} {{ wrapper_classes }}{% endif %} {% if icon %} d-flex icon-link{% endif %}">
+		{% if title %}
+			<span class="link_item_label">{{ title }}</span>
+		{% endif %}
+		{% if icon %}
+			{% render "@partials-icon" with {
+				icon:icon,
+				height:icon_height,
+				width:icon_width
+			} %}
+		{% endif %}
+	</span>
+</a>

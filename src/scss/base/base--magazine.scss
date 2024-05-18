@@ -1,0 +1,86 @@
+:root {
+	/* Color Scheme */
+	--primary-color: #007bff; /* Primary brand color */
+	--secondary-color: #6c757d; /* Secondary color */
+	--accent-color: #28a745; /* Accent color for call-to-actions */
+	--background-color: #f8f9fa; /* Background color for the body */
+	--text-color: #212529; /* Primary text color */
+	--text-color-light: #ffffff; /* Light text color for use on dark backgrounds */
+
+	/* Font and Typography */
+	--font-family: 'Arial', sans-serif; /* Primary font family */
+	--font-size: 16px; /* Default font size */
+	--heading-font-family: 'Georgia', serif; /* Font family for headings */
+	--font-weight-normal: 400; /* Normal font weight */
+	--font-weight-bold: 700; /* Bold font weight */
+
+	/* Spacing */
+	--space-xs: 4px; /* Extra small space */
+	--space-sm: 8px; /* Small space */
+	--space-md: 16px; /* Medium space */
+	--space-lg: 32px; /* Large space */
+	--space-xl: 64px; /* Extra large space */
+
+	/* Borders and Radius */
+	--border-radius: 4px; /* Border radius for buttons, inputs, etc. */
+	--border-color: #ced4da; /* Default border color */
+	--border-style: solid; /* Default border style */
+	--border-width: 1px; /* Default border width */
+}
+
+body {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	font-family: var(--font-family);
+	font-size: var(--font-size);
+}
+
+h1,
+h2,
+h3 {
+	font-family: var(--heading-font-family);
+}
+
+a {
+	text-decoration: none;
+	color: var(--accent-color, --nav-link-color);
+}
+
+button {
+	background-color: var(--primary-color);
+	color: var(--text-color-light);
+	border-radius: var(--border-radius);
+	padding: var(--space-sm) var(--space-md);
+}
+
+.container {
+	padding: var(--space-lg);
+}
+
+input {
+	border: var(--border-width) var(--border-style) var(--border-color);
+}
+
+nav {
+	ul {
+		display: flex;
+		list-style: none;
+		padding: 0;
+		column-gap: var(--space-md);
+	}
+	li {
+		margin-right: 20px;
+	}
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	column-gap: var(--space-md);
+}
+.navbar-toggler {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}

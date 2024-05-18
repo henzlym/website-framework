@@ -1,0 +1,19 @@
+.navigation--dropdown ul {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation--dropdown li {
+	position: relative;
+}
+
+.navigation--dropdown .submenu {
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+
+.navigation--dropdown .has-children:hover .submenu {
+	display: block;
+}

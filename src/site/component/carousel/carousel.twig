@@ -1,0 +1,35 @@
+{% set data_glide_dir_prev = '<' %}
+{% set data_glide_dir_next = '>' %}
+
+<div class="glide">
+	<div id="{{ id }}" class="glide__track" data-glide-el="track">
+
+		<ul class="glide__slides">
+			{% if items %}
+				{% for item in items %}
+					<li class="glide__slide">
+						{% render "@component-card--image" %}
+					</li>
+				{% endfor %}
+			{% endif %}
+		</ul>
+	</div>
+
+	<footer class="carousel-controls d-flex  justify-content-between border-top py-3">
+		<nav class="glide__bullets carousel-indicators" data-glide-el="controls[nav]">
+			{% if items %}
+				{% for item in items %}
+					<a href="#" class="glide__bullet carousel-indicator bg-white  text-decoration-none text-primary text-uppercase " data-glide-dir="{{ '=' ~ loop.index0 }}">{{ loop.index }}
+						/
+						{{ items|length }}</a>
+				{% endfor %}
+			{% endif %}
+		</nav>
+		<div class="glide__arrows carousel-control d-flex column-gap-1" data-glide-el="controls">
+			<button data-glide-dir="{{ data_glide_dir_prev }}" type="button" class="glide__arrow glide__arrow--left carousel-control-button carousel-control-button-prev bg-white btn p-0 fs-6 text-primary text-uppercase">prev</button>
+			<span class="glide__arrows--seperator">/</span>
+			<button data-glide-dir="{{ data_glide_dir_next }}" type="button" class="glide__arrow glide__arrow--right carousel-control-button carousel-control-button-next bg-white btn p-0 fs-6 text-primary text-uppercase">next</button>
+		</div>
+	</footer>
+
+</div>

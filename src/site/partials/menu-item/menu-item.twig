@@ -1,0 +1,10 @@
+<li class="{% if item.children is defined %}has-children{% endif %}">
+	<a href="{{ item.path }}">{{ item.name }}</a>
+	{% if item.children is defined %}
+		<ul class="submenu">
+			{% for child in item.children %}
+				{% include '@partials-menu-item' with {'item': child} %}
+			{% endfor %}
+		</ul>
+	{% endif %}
+</li>

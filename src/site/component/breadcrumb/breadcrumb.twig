@@ -1,0 +1,30 @@
+<nav classes="{{ classes }}" aria-label="breadcrumb">
+	{% if items %}
+		<ol class="breadcrumb">
+			{% for item in items %}
+
+				{% set item_class = item.class ?: "" %}
+				{% set item_link_class = item.link_class ?: "" %}
+				{% set link_class = link_classes ~ " " ~ item_link_class %}
+
+				<li class="breadcrumb-item {{ item_classes }} {{ item_class }} {% if item.active %}active last{% endif %}" {% if item.active %} aria-current="page" {% endif %}>
+					{% if item.active %}
+						{% render "@partials-link" with {
+							aria_label: '',
+							classes:link_class,
+							icon: '',
+							icon_height:16,
+							icon_width:16,
+							modifier:'',
+							title: item.label ?: item,
+							url: '#',
+							wrapper_classes:''
+						} %}
+					{% else %}
+						{{ item.label ?: item }}
+					{% endif %}
+				</li>
+			{% endfor %}
+		</ol>
+	{% endif %}
+</nav>

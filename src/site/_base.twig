@@ -1,0 +1,27 @@
+{% set page = _target.context.page|default({
+	mode:'light',
+	classes:'',
+	theme:'default'
+}) %}
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	<head>
+		{% render '@partials-head' %}
+	</head>
+
+	<body class="theme-{{ page.theme|default('default') }}{% if page.classes %} {{ page.classes }}{% endif %}" data-bs-theme="{{ page.mode }}">
+
+		{% block content %}
+			<div id="content" class="content">
+				{{ yield }}
+			</div>
+		{% endblock %}
+
+		{% if config.assets.scripts %}
+			{% for script in config.assets.scripts %}
+				<script src="{{ script }}"></script>
+			{% endfor %}
+		{% endif %}
+	</body>
+</html>

@@ -1,0 +1,9 @@
+.dropdown:hover > .dropdown-menu,
+.dropdown-menu > li:hover > .dropdown-submenu {
+	display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+	/*Without this, clicking will make it sticky*/
+	pointer-events: none;
+}

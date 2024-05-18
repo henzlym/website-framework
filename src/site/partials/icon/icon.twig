@@ -1,0 +1,17 @@
+{# 
+	{% render "@partials-icon" with {
+		classes: '',
+		icon: 'bootstrap',
+		height: 32,
+		width: 32
+	} %}
+ #}
+{% set width = component_icon.width|default(width) %}
+{% set height = component_icon.height|default(height) %}
+{% if icon %}
+	<svg class="bi{% if classes %} {{ classes }}{% endif %}" fill="currentColor">
+		<use xlink:href="/icons/icons.svg#{{ icon }}"/>
+	</svg>
+{% else %}
+	<small>Missing icon name or icon cannot be found</small>
+{% endif %}

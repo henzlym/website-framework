@@ -1,0 +1,50 @@
+{# 
+	{% render "@component-navigation" with {
+		classes:'',
+		items:items
+	} %}
+ #}
+
+{% set items = items|default([]) %}
+
+<nav class="nav-container {{ classes }}" id="{{ id }}">
+	{% if title %}
+		<p class="nav-title ">{{ title }}</p>
+	{% endif %}
+
+	{% if items %}
+		<ul class="nav {{ nav_classes }}">
+			{% for item in items %}
+
+				{% set item_link_class = item.link_class or item.link_class != null ? 'nav-link' ~ ' ' ~ item.link_class : 'nav-link' %}
+				{% set item_link_classes = link_class ~ ' ' ~ item_link_class %}
+
+				{% if item.children %}
+					{% render "@component-dropdown" with {
+						title: item.label ?: item,
+						url: item.url ?: '#',
+						icon: item.icon,
+						items: item.children,
+						link_classes:item_link_classes,
+					} %}
+				{% else %}
+					<li class="nav-item{% if item_class %} {{ item_class }}{% endif %}{% if item.class %} {{ item.class }} {% endif %}">
+						{% render '@partials-link' with {
+						aria_label: '',
+						classes:item_link_classes,
+						icon: item.icon ?: '',
+						icon_height:item.icon_height ?: 16,
+						icon_width:item.icon_width ?: 16,
+						modifier:'',
+						title: item.label ?: item,
+						url: item.url ?: '#',
+						wrapper_classes:'',
+					} %}
+					</li>
+				{% endif %}
+
+
+			{% endfor %}
+		</ul>
+	{% endif %}
+</nav>

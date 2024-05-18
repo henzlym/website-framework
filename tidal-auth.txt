@@ -1,0 +1,9 @@
+client_id = E0iv9Kki4aQLTIsk
+client_secret = bQxgvfwZhXWpvxZK719qm7p4nnw864U7mhhWlcncZhU=
+
+B64CREDS=$(echo -n "E0iv9Kki4aQLTIsk:bQxgvfwZhXWpvxZK719qm7p4nnw864U7mhhWlcncZhU=" | base64)
+
+curl -X POST \
+  -H "Authorization: Basic $B64CREDS" \
+  -d "grant_type=client_credentials" \
+  "https://auth.tidal.com/v1/oauth2/token"

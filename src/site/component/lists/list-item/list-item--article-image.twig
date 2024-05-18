@@ -1,0 +1,57 @@
+{# 
+	{% include "@component-list-item--articles" with {
+			"link": {
+				"aria_label": "",
+				"label": "Link Text",
+				"url": "#",
+				"icon": ""
+			},
+			"title": "Card title",
+			"text": "Some quick example text to build on the card title and make up the bulk of the card's content."
+		} 
+	%}
+#}
+<div class="card list-item list-item--{{ type }} flex-column flex-md-row {{ classes }}">
+
+	{% if image %}
+		{% render "@content-picture" with {
+			classes:'aspect-ratio-widescreen w-100',
+			src:'placeholder'
+		}  %}
+	{% endif %}
+
+	<div class="card-body w-100">
+
+		{% if categories %}
+			{% render '@partials-link' with {
+				classes:'card-tag',
+				icon: '',
+				title: categories,
+				rel:'tag'
+			} %}
+		{% endif %}
+
+		<h4 class="card-title mb-3">{{ title }}</h4>
+
+		{% if meta.author %}
+			<span class="card-author">
+				{% render "@partials-author" with meta.author %}
+			</span>
+		{% endif %}
+
+		{% if read_more %}
+			{% render '@partials-link' with {
+				aria_label: '',
+				classes:'read-more',
+				icon: '',
+				icon_height:16,
+				icon_width:16,
+				modifier:'',
+				title: read_more.title,
+				url: '#',
+				wrapper_classes:''
+			} %}
+		{% endif %}
+
+	</div>
+</div>

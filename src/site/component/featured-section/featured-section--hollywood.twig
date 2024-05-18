@@ -1,0 +1,31 @@
+{# 
+	{% render "@component-card-group" with {
+		classes:'',
+		items:items,
+		title:''
+	} %}
+#}
+<div class="featured-section-container text-align-center">
+	<div class="row">
+
+		<div class="col">
+			{% render "@component-card--feature" %}
+		</div>
+
+	</div>
+	<div class="row">
+
+		<div class="col-md-4">
+			{% render "@component-card--image-description" %}
+		</div>
+
+		<div class="col-md-4">
+			{% render "@component-card--image-description" %}
+		</div>
+
+		<div class="col-md-4">
+			{% render "@component-card--image-description" %}
+		</div>
+
+	</div>
+</div>

@@ -1,0 +1,30 @@
+{# 
+	{% render "@component-social-share" with {
+		items: config.menus.socials,
+		title: 'Social Share'
+	} %} 
+#}
+
+{% set items = items|default([]) %}
+
+<div class="social-share d-flex column-gap-2 {{ classes }}">
+	{% if title %}
+		<h5 class="social-share-title">{{ title }}:</h5>
+	{% endif %}
+
+	{% if items %}
+		<ul class="nav column-gap-3 {{ nav_classes }}">
+			{% for item in items %}
+				<li class="nav-item">
+					{% render "@partials-link" with {
+						title:item.label,
+						icon:item.icon,
+						icon_height:65,
+						icon_width:65,
+						url:item.url ?: '#'
+					} %}
+				</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+</div>

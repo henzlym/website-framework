@@ -1,0 +1,43 @@
+{#
+	{% render '@content-picture' with {
+		alt: '',
+		src: 'placeholder',
+		loading: 'lazy',
+		size: 'medium',
+		sources: {
+			'1024px': image_sizes['large'],
+			'960px': image_sizes['medium_large'],
+			'720px': image_sizes['medium'],
+			'540px': image_sizes['small'],
+			'360px': image_sizes['thumbnail']
+		}
+	} %}
+#}
+
+
+{% set img = { width:image_sizes[size].width, height:image_sizes[size].height } %}
+{% set thumbnail_id = id|default(random(5)) %}
+
+
+{% if src == 'placeholder' %}
+	{% set src = path ~ '/images/mock/' ~ size ~ '/gradient-' ~ thumbnail_id ~ '-' ~ img.width ~ 'x' ~ img.height ~ '.jpg' %}
+{% else %}
+	{% set src = path ~ '/images/' ~ src|default('placeholder') %}
+{% endif %}
+
+<picture class="picture">
+	{% if sources %}
+		{% for key, source in sources %}
+			{% if source.width <= img.width %}
+				<source media="(min-width: {{ key }})" srcset="/images/mock/{{ source.name }}/gradient-{{ thumbnail_id }}-{{ source.width }}x{{ source.height }}.jpg" width="{{ source.width }}" height="{{ source.height }}">
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+	{% render "@content-image" with {
+		alt: alt,
+		classes:classes,
+		src: src,
+		loading: loading,
+		size: size
+	} %}
+</picture>

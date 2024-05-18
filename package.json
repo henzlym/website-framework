@@ -1,0 +1,77 @@
+{
+  "name": "website-framework",
+  "version": "0.1.0",
+  "main": "fractal.config.js",
+  "scripts": {
+    "dev": "gulp fractal:start",
+    "build": "gulp fractal:build"
+  },
+  "postcss": {
+    "map": false,
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@faker-js/faker": "^8.4.1",
+    "@flaticon/flaticon-uicons": "^3.2.1",
+    "@frctl/fractal": "^1.5.15",
+    "@frctl/handlebars": "^1.2.15",
+    "@frctl/mandelbrot": "^1.10.3",
+    "@frctl/twig": "^1.2.13",
+    "@popperjs/core": "^2.11.8",
+    "autoprefixer": "^10.4.16",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.9.0",
+    "dom-parser": "^1.1.5",
+    "fancy-log": "^2.0.0",
+    "fs-extra": "^11.2.0",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-iconfont": "^11.0.1",
+    "gulp-postcss": "^9.1.0",
+    "gulp-purgecss": "^6.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-tap": "^2.0.0",
+    "gulp-twig": "^1.2.0",
+    "gulp-webpack": "^1.5.0",
+    "html-webpack-plugin": "^5.6.0",
+    "merge-stream": "^2.0.0",
+    "module-alias": "^2.2.3",
+    "postcss": "^8.4.33",
+    "postcss-load-config": "^5.0.2",
+    "postcss-plugin": "^1.0.0",
+    "purgecss": "^6.0.0",
+    "purgecss-webpack-plugin": "^6.0.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "twig-markdown": "^1.0.1",
+    "webpack-stream": "^7.0.0",
+    "wepack": "^0.0.1"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0",
+    "@tidal-music/auth": "^1.3.0",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
+    "highlight.js": "^11.9.0",
+    "highlightjs-svelte": "^1.0.6",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "node-sass-json-importer": "^4.3.0",
+    "vinyl-named": "^1.1.0"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@src": "src",
+    "@js": "src/js",
+    "@api": "api-examples"
+  }
+}

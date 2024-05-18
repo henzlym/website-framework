@@ -1,0 +1,31 @@
+<div class="page-header">
+
+	<div class="page-category-wrapper mb-5 text-uppercase fw-bold">
+		{% render '@partials-link' with {
+			aria_label: '',
+			classes:'badge text-bg-dark text-decoration-none',
+			icon: '',
+			icon_height:16,
+			icon_width:16,
+			modifier:'',
+			title: categories[0],
+			url: '#',
+			wrapper_classes:''
+		} %}
+	</div>
+
+	<h1 class="fs-page-title mb-2 lh-sm">{{ title }}</h1>
+
+	<div class="page-lead-wrapper mb-3">
+		<p class="lead">{{ excerpt }}</p>
+	</div>
+
+	<div class="page-meta-wrapper">
+		{% render "@partials-article-meta" with {
+			author: author,
+			date_published: date_published,
+			date_updated:date_updated
+		} %}
+	</div>
+
+</div>

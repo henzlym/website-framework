@@ -1,0 +1,8 @@
+@import '@glidejs/glide/src/assets/sass/glide.core';
+
+.carousel-indicator {
+	display: none;
+	&[class*='active'] {
+		display: initial;
+	}
+}

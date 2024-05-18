@@ -1,0 +1,22 @@
+{# {% set component_context = '' %}
+{% for key, item in _self.context %}
+	{% set component_context = component_context ~ "    " ~ key ~ ":" ~ key ~ ",\n" %}
+{% endfor %}
+
+{% set component_ref = "<!-- \n{% include '@" ~ _self.handle ~ "' with { \n" ~ component_context ~ "} %}\n -->" %}
+
+{{ component_ref }} #}
+
+<button type="button" class="btn {{ classes }}" aria-label="{{ aria_label ?: "" }}">
+	<span class="btn_label">{{ title }}</span>
+	{% if icon %}
+		<span class="btn_icon" aria-hidden="true">
+			{% render "@partials-icon" with {
+				classes: icon_classes,
+				icon: icon,
+				height: height,
+				width: width
+			} %}
+		</span>
+	{% endif %}
+</button>

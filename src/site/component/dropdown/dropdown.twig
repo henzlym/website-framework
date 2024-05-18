@@ -1,0 +1,34 @@
+{# 
+	{% render "@components-dropdown" with {
+		items: ['Action', 'Another action', 'Something else here'],
+		title: 'Dropdown button'
+	} %}
+ #}
+<li class="nav-item dropdown {{ classes }}">
+	<a class="nav-link dropdown-toggle {{ link_classes }}" href="{{ url ?: '#' }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+		{% if icon %}
+			{% render "@components-icon" with {
+				icon:icon
+			} %}
+		{% endif %}
+		{{ title }}
+	</a>
+	{% if items %}
+		<ul class="dropdown-menu">
+			{% for item in items %}
+				<li class="{% if item.children is defined %}has-children{% endif %}">
+					<a class="dropdown-item{% if item.children is defined %} dropdown-toggle{% endif %}" href="{{ item.url ?: '#' }}" {% if item.children is defined %} role="button" data-bs-toggle="dropdown" {% endif %}>{{ item.label ?: item }}</a>
+					{% if item.children is defined %}
+						<ul class="dropdown-menu dropdown-submenu sub-menu">
+							{% for child in item.children %}
+								<li>
+									<a href="#" class="dropdown-item">{{ child.label ?: child }}</a>
+								</li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+				</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+</li>

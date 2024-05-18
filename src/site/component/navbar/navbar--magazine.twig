@@ -1,0 +1,47 @@
+{# 
+	{% render "@component-navbar" with {
+		classes: '',
+		site_brand: {
+			img: {
+				alt: '',
+				classes: 'site-logo mw-site-logo aspect-ratio-widescreen',
+				src: 'placeholder',
+				loading: 'eager',
+				size: 'thumbnail',
+				sources: {
+					'1024px': image_sizes['large'],
+					'960px': image_sizes['medium_large'],
+					'720px': image_sizes['medium'],
+					'540px': image_sizes['small'],
+					'360px': image_sizes['thumbnail']
+				}
+			},
+			url: '#',
+			title: ''
+		},
+		navigation: {
+			classes: 'ms-auto',
+			id: 'site-navigation',
+			items: config.menus.primary,
+			item_class: '',
+			js_class: '',
+			link_class: '',
+			nav_classes: '',
+			title: ''
+		},
+		navbar_collapse_classes: 'justify-content-end'
+	} %}
+#}
+
+<nav class="navbar {{ classes }} ">
+	{% if site_brand.img.src or site_brand.title %}
+		{% render "@component-site-logo" with site_brand %}
+	{% endif %}
+
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse {{ navbar_collapse_classes }}" id="navbarSupportedContent">
+		{% render "@component-navigation--magazine" with navigation %}
+	</div>
+</nav>

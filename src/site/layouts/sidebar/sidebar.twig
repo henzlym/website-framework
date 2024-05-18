@@ -1,0 +1,22 @@
+<aside class="page-sidebar" style="width:300px;max-width:300px">
+	<div class="d-inline-flex flex-column p-3 rounded shadow-sm">
+		<div class="sidebar-item mb-3">
+			{% render "@component-navigation" with {
+				title:'Related Posts:',
+				items:config.page.related_posts,
+				nav_classes:'related-posts flex-column',
+				item_class:'border-bottom text-dark small',
+				link_class:'text-dark'
+			} %}
+		</div>
+		<div class="sidebar-item">
+			{% render "@component-navigation" with {
+				title:'Popular Tags:',
+				items:config.page.tags,
+				nav_classes:'list-inline my-3',
+				item_class:'list-inline-item small mb-2 rounded bg-light text-secondary',
+				link_class:''
+			} %}
+		</div>
+	</div>
+</aside>

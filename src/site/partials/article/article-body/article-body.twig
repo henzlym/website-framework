@@ -1,0 +1,28 @@
+<div class="page-content">
+	<div class="page-component-wrapper mb-5">
+		{% render "@content-figure" with {
+			classes:'article-detail-image-widescreen',
+			image: {
+				alt: 'Ab nulla officiis eligendi omnis iste at distinctio vel amet',
+				id: null,
+				loading: 'lazy',
+				size: 'large',
+				sources: {
+					'1024px': image_sizes['large'],
+					'960px': image_sizes['medium_large'],
+					'720px': image_sizes['medium'],
+					'540px': image_sizes['small'],
+					'360px': image_sizes['thumbnail']
+				},
+				src: 'placeholder'
+			}
+		} %}
+	</div>
+	{% if components %}
+		{% for component in components %}
+			<div class="page-component-wrapper">
+				{% render '@component-' ~ component %}
+			</div>
+		{% endfor %}
+	{% endif %}
+</div>

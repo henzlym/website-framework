@@ -1,0 +1,33 @@
+<nav aria-label="Page navigation example">
+	{% if pages > 2 %}
+		<ul class="pagination">
+			<li class="page-item">
+				<a class="page-link" href="#">
+					{% include "@components-icon" with {
+						icon:'arrow-left-short',
+						width:20,
+						height:20,
+					} %}
+				</a>
+			</li>
+
+			{% if show_numbers %}
+				{% for i in 1..pages %}
+					<li class="page-item">
+						<a class="page-link" href="#">{{ i }}</a>
+					</li>
+				{% endfor %}
+			{% endif %}
+
+			<li class="page-item">
+				<a class="page-link disabled" href="#">
+					{% include "@components-icon" with {
+						icon:'arrow-right-short',
+						width:20,
+						height:20,
+					} %}
+				</a>
+			</li>
+		</ul>
+	{% endif %}
+</nav>

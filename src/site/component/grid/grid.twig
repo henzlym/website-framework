@@ -1,0 +1,32 @@
+{#
+	{% render "@component-grid" with {
+		component_name: 'component-card--image',
+		classes: '',
+		columns: '3',
+		items: articles,
+		type: '3'
+	} %}
+#}
+
+
+<div class="grid-container {{ classes }}">
+	{% if title %}
+		<div class="row">
+			<div class="col-12">
+				<h2 class="grid-container--title">{{ title }}</h2>
+			</div>
+		</div>
+	{% endif %}
+	<div class="row row-cols-{{ columns }}">
+
+		{% for item in items %}
+
+			<div class="col">
+				{% render "@" ~ component_name with item %}
+			</div>
+
+		{% endfor %}
+
+	</div>
+
+</div>

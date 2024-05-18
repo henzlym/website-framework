@@ -1,0 +1,237 @@
+{
+	"title":"Company, Inc",
+	"assets": {
+		"scripts": ["/js/scripts.js", "/js/vendor.js"],
+		"styles": ["/css/site.css"]
+	},
+	"menus": {
+		"primary": [
+			{
+				"label": "Home",
+				"url": "#",
+				"icon": "",
+				"active":true,
+				"link_class":"active"
+			},
+			{
+				"label": "About Us",
+				"url": "#",
+				"icon": "",
+				"children": [
+					{
+						"label": "Our Team",
+						"url": "#",
+						"icon": ""
+					},
+					{
+						"label": "Mission",
+						"url": "#",
+						"icon": ""
+					},
+					{
+						"label": "Vision",
+						"url": "#",
+						"icon": "",
+						"children": [
+							{
+								"label": "Goals",
+								"url": "#",
+								"icon": ""
+							},
+							{
+								"label": "Plans",
+								"url": "#",
+								"icon": ""
+							},
+							{
+								"label": "Focus",
+								"url": "#",
+								"icon": ""
+							}
+						]
+					}
+				]
+			},
+			{
+				"label": "Services",
+				"url": "#",
+				"icon": "",
+				"children": [
+					{
+						"label": "Web Development",
+						"url": "#",
+						"icon": ""
+					},
+					{
+						"label": "Graphic Design",
+						"url": "#",
+						"icon": ""
+					},
+					{
+						"label": "SEO",
+						"url": "#",
+						"icon": ""
+					}
+				]
+			},
+			{
+				"label": "Products",
+				"url": "#",
+				"icon": ""
+			},
+			{
+				"label": "Contact",
+				"url": "#",
+				"icon": ""
+			}
+		],
+		"secondary": [
+			{
+				"label": "Blog",
+				"url": "#",
+				"icon": ""
+			},
+			{
+				"label": "Portfolio",
+				"url": "#",
+				"icon": ""
+			},
+			{
+				"label": "Testimonials",
+				"url": "#",
+				"icon": ""
+			},
+			{
+				"label": "FAQ",
+				"url": "#",
+				"icon": ""
+			},
+			{
+				"label": "Support",
+				"url": "#",
+				"icon": ""
+			}
+		],
+		"utility": [
+			{
+				"label": "Login",
+				"url": "#",
+				"icon": ""
+			},
+			{
+				"label": "Sign Up",
+				"url": "#",
+				"icon": ""
+			},
+			{
+				"label": "Settings",
+				"url": "#",
+				"icon": ""
+			},
+			{
+				"label": "Help",
+				"url": "#",
+				"icon": ""
+			}
+		],
+		"footer": [
+			{
+				"label": "About Us",
+				"url": "#",
+				"icon": ""
+			},
+			{
+				"label": "Contact Us",
+				"url": "#",
+				"icon": ""
+			},
+			{
+				"label": "Privacy Policy",
+				"url": "#",
+				"icon": ""
+			},
+			{
+				"label": "Terms of Service",
+				"url": "#",
+				"icon": ""
+			}
+		],
+		"sidebar": [
+			{
+				"label": "Latest Posts",
+				"url": "#",
+				"icon": ""
+			},
+			{
+				"label": "Archives",
+				"url": "#",
+				"icon": ""
+			},
+			{
+				"label": "Popular Tags",
+				"url": "#",
+				"icon": ""
+			}
+		],
+		"socials": [
+			{
+				"label": "Facebook",
+				"url": "#",
+				"icon": "facebook"
+			},
+			{
+				"label": "Twitter",
+				"url": "#",
+				"icon": "twitter"
+			},
+			{
+				"label": "YouTube",
+				"url": "#",
+				"icon": "youtube"
+			},
+			{
+				"label": "LinkedIn",
+				"url": "#",
+				"icon": "linkedin"
+			},
+			{
+				"label": "Instagram",
+				"url": "#",
+				"icon": "instagram"
+			}
+		]
+	},
+	"page": {
+		"classes": [],
+		"tags":["nature", "food", "travel", "technology", "fitness", "music", "art", "fashion", "books", "sports"],
+		"categories":["sports", "politics", "entertainment", "technology", "health", "business", "science", "travel", "food", "fashion"],
+		"theme": "default",
+		"related_posts": [
+			{
+				"label": "Cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam",
+				"url": "#",
+				"image": true
+			},
+			{
+				"label": "Sed interdum venenatis turpis enim blandit mi in porttitor pede justo",
+				"url": "#",
+				"image": true
+			},
+			{
+				"label": "Rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat",
+				"url": "#",
+				"image": true
+			},
+			{
+				"label": "Quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse",
+				"url": "#",
+				"image": false
+			},
+			{
+				"label": "Id nulla ultrices aliquet maecenas leo odio condimentum id luctus",
+				"url": "#",
+				"image": true
+			}
+		]
+	}
+}

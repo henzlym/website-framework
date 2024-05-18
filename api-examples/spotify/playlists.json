@@ -1,0 +1,906 @@
+{
+    "limit": 50,
+    "offset": 0,
+    "totalNumberOfItems": 13,
+    "items": [
+        {
+            "item": {
+                "id": 75728239,
+                "title": "Feds Did a Sweep",
+                "duration": 270,
+                "replayGain": -7.94,
+                "peak": 0.997345,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "djReady": true,
+                "stemReady": false,
+                "streamStartDate": "2017-06-30T00:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 17,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 42,
+                "copyright": "(P) 2017 Epic Records, a division of Sony Music Entertainment with A1 / Freebandz",
+                "bpm": null,
+                "description": null,
+                "url": "http://www.tidal.com/track/75728239",
+                "isrc": "USSM11701453",
+                "editable": false,
+                "explicit": true,
+                "audioQuality": "HI_RES",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "MQA"
+                    ]
+                },
+                "artist": {
+                    "id": 3618971,
+                    "name": "Future",
+                    "type": "MAIN",
+                    "picture": "3324ec71-68a0-4114-abe8-6fe56d01c927"
+                },
+                "artists": [
+                    {
+                        "id": 3618971,
+                        "name": "Future",
+                        "type": "MAIN",
+                        "picture": "3324ec71-68a0-4114-abe8-6fe56d01c927"
+                    }
+                ],
+                "album": {
+                    "id": 75728222,
+                    "title": "FUTURE",
+                    "cover": "939b7e44-1bcc-4763-a3e1-76296f41dc68",
+                    "vibrantColor": "#e3c95b",
+                    "videoCover": null,
+                    "releaseDate": "2017-06-30"
+                },
+                "mixes": {
+                    "TRACK_MIX": "00131f8dc1d2a12da5005a56d00980"
+                },
+                "dateAdded": "2024-04-10T03:48:52.906+0000",
+                "index": 100000,
+                "itemUuid": "87661bb5-898f-46ca-be72-52e1b2f9abb5"
+            },
+            "type": "track",
+            "cut": null
+        },
+        {
+            "item": {
+                "id": 49230614,
+                "title": "The Percocet & Stripper Joint",
+                "duration": 149,
+                "replayGain": -7.3,
+                "peak": 0.864407,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "djReady": true,
+                "stemReady": false,
+                "streamStartDate": "2015-07-17T00:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 15,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 30,
+                "copyright": "(P) 2015 Epic Records, a division of Sony Music Entertainment",
+                "bpm": 80,
+                "description": null,
+                "url": "http://www.tidal.com/track/49230614",
+                "isrc": "USSM11505606",
+                "editable": false,
+                "explicit": false,
+                "audioQuality": "HI_RES",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "HIRES_LOSSLESS",
+                        "MQA"
+                    ]
+                },
+                "artist": {
+                    "id": 3618971,
+                    "name": "Future",
+                    "type": "MAIN",
+                    "picture": "3324ec71-68a0-4114-abe8-6fe56d01c927"
+                },
+                "artists": [
+                    {
+                        "id": 3618971,
+                        "name": "Future",
+                        "type": "MAIN",
+                        "picture": "3324ec71-68a0-4114-abe8-6fe56d01c927"
+                    }
+                ],
+                "album": {
+                    "id": 49230599,
+                    "title": "DS2 (Deluxe)",
+                    "cover": "a18365c6-911c-43b7-87c2-c8d12f4fa842",
+                    "vibrantColor": "#1ca5ca",
+                    "videoCover": null,
+                    "releaseDate": "2015-07-17"
+                },
+                "mixes": {
+                    "TRACK_MIX": "001c2bd706ee5217abc07ab1d2e347"
+                },
+                "dateAdded": "2024-04-10T03:49:07.861+0000",
+                "index": 200000,
+                "itemUuid": "d19517f1-575d-4619-8be4-49fb06b0d5d5"
+            },
+            "type": "track",
+            "cut": null
+        },
+        {
+            "item": {
+                "id": 78788594,
+                "title": "Married to the Game",
+                "duration": 131,
+                "replayGain": -10.15,
+                "peak": 1,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "djReady": true,
+                "stemReady": false,
+                "streamStartDate": "2017-08-23T00:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 8,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 61,
+                "copyright": "© 2017 MBE Records",
+                "bpm": 143,
+                "description": null,
+                "url": "http://www.tidal.com/track/78788594",
+                "isrc": "USQY51774590",
+                "editable": false,
+                "explicit": true,
+                "audioQuality": "LOSSLESS",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS"
+                    ]
+                },
+                "artist": {
+                    "id": 3618971,
+                    "name": "Future",
+                    "type": "MAIN",
+                    "picture": "3324ec71-68a0-4114-abe8-6fe56d01c927"
+                },
+                "artists": [
+                    {
+                        "id": 3618971,
+                        "name": "Future",
+                        "type": "MAIN",
+                        "picture": "3324ec71-68a0-4114-abe8-6fe56d01c927"
+                    }
+                ],
+                "album": {
+                    "id": 78788586,
+                    "title": "Project E.T.",
+                    "cover": "c2c87b8d-84f8-4d15-9c55-f0a29c688b48",
+                    "vibrantColor": "#f8b257",
+                    "videoCover": null,
+                    "releaseDate": "2016-10-11"
+                },
+                "mixes": {
+                    "TRACK_MIX": "001c48cc72be43b5c96a1a42ae48c0"
+                },
+                "dateAdded": "2024-04-10T03:49:37.991+0000",
+                "index": 300000,
+                "itemUuid": "8083cc6b-2f91-40d5-8df1-57bea868aec2"
+            },
+            "type": "track",
+            "cut": null
+        },
+        {
+            "item": {
+                "id": 226969919,
+                "title": "LOVE YOU BETTER",
+                "duration": 129,
+                "replayGain": -9.63,
+                "peak": 0.988439,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "djReady": true,
+                "stemReady": false,
+                "streamStartDate": "2022-05-02T11:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 8,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 41,
+                "copyright": "(P) 2022 Epic Records, a division of Sony Music Entertainment. With Freebandz.",
+                "bpm": null,
+                "description": null,
+                "url": "http://www.tidal.com/track/226969919",
+                "isrc": "USSM12203790",
+                "editable": false,
+                "explicit": true,
+                "audioQuality": "HI_RES",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "HIRES_LOSSLESS",
+                        "MQA"
+                    ]
+                },
+                "artist": {
+                    "id": 3618971,
+                    "name": "Future",
+                    "type": "MAIN",
+                    "picture": "3324ec71-68a0-4114-abe8-6fe56d01c927"
+                },
+                "artists": [
+                    {
+                        "id": 3618971,
+                        "name": "Future",
+                        "type": "MAIN",
+                        "picture": "3324ec71-68a0-4114-abe8-6fe56d01c927"
+                    }
+                ],
+                "album": {
+                    "id": 226969911,
+                    "title": "I NEVER LIKED YOU",
+                    "cover": "7cba3649-2241-47fd-b92b-989878308201",
+                    "vibrantColor": "#dcc084",
+                    "videoCover": null,
+                    "releaseDate": "2022-04-29"
+                },
+                "mixes": {
+                    "TRACK_MIX": "001fc35c9187e1f8c3a2c758b0681b"
+                },
+                "dateAdded": "2024-04-11T23:13:41.419+0000",
+                "index": 400000,
+                "itemUuid": "4f74e961-de02-47ce-8f4a-5ed1fa2442de"
+            },
+            "type": "track",
+            "cut": null
+        },
+        {
+            "item": {
+                "id": 356883820,
+                "title": "Luv Bad Bitches",
+                "duration": 196,
+                "replayGain": -9.84,
+                "peak": 0.966048,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "djReady": true,
+                "stemReady": false,
+                "streamStartDate": "2024-04-12T00:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 6,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 53,
+                "copyright": "(P) 2024 Wilburn Holding Co. and Boominati Worldwide, under exclusive license to Epic Records, a division of Sony Music Entertainment. With Republic Records, a division of UMG Recordings, Inc.",
+                "bpm": 137,
+                "description": null,
+                "url": "http://www.tidal.com/track/356883820",
+                "isrc": "USSM12403095",
+                "editable": false,
+                "explicit": true,
+                "audioQuality": "LOSSLESS",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "HIRES_LOSSLESS"
+                    ]
+                },
+                "artist": {
+                    "id": 3618971,
+                    "name": "Future",
+                    "type": "MAIN",
+                    "picture": "3324ec71-68a0-4114-abe8-6fe56d01c927"
+                },
+                "artists": [
+                    {
+                        "id": 3618971,
+                        "name": "Future",
+                        "type": "MAIN",
+                        "picture": "3324ec71-68a0-4114-abe8-6fe56d01c927"
+                    },
+                    {
+                        "id": 5012586,
+                        "name": "Metro Boomin",
+                        "type": "MAIN",
+                        "picture": "1117eb24-93a9-410c-a603-a897c86d3db7"
+                    },
+                    {
+                        "id": 2854,
+                        "name": "Brownstone",
+                        "type": "MAIN",
+                        "picture": "2b16d471-c736-452b-9faa-4a9a678d6999"
+                    }
+                ],
+                "album": {
+                    "id": 356883814,
+                    "title": "WE STILL DON'T TRUST YOU",
+                    "cover": "d23652ad-2144-48d3-b12f-db47b6791af3",
+                    "vibrantColor": "#FFFFFF",
+                    "videoCover": null,
+                    "releaseDate": "2024-04-12"
+                },
+                "mixes": {
+                    "TRACK_MIX": "001d052b6e31bda316e60e64e5db9c"
+                },
+                "dateAdded": "2024-04-13T23:51:12.916+0000",
+                "index": 500000,
+                "itemUuid": "76643a40-4c7f-4c82-b5c9-1e3061bb719e"
+            },
+            "type": "track",
+            "cut": null
+        },
+        {
+            "item": {
+                "id": 35193871,
+                "title": "Loveeeeeee Song",
+                "duration": 256,
+                "replayGain": -10.48,
+                "peak": 0.997345,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "djReady": true,
+                "stemReady": false,
+                "streamStartDate": "2012-11-19T00:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 5,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 70,
+                "copyright": "℗ 2012 Def Jam Recordings, a division of UMG Recordings, Inc.",
+                "bpm": 120,
+                "description": null,
+                "url": "http://www.tidal.com/track/35193871",
+                "isrc": "USUM71214740",
+                "editable": false,
+                "explicit": true,
+                "audioQuality": "HI_RES",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "MQA"
+                    ]
+                },
+                "artist": {
+                    "id": 10665,
+                    "name": "Rihanna",
+                    "type": "MAIN",
+                    "picture": "3007b448-2392-44d7-acdf-bea8d41cee62"
+                },
+                "artists": [
+                    {
+                        "id": 10665,
+                        "name": "Rihanna",
+                        "type": "MAIN",
+                        "picture": "3007b448-2392-44d7-acdf-bea8d41cee62"
+                    },
+                    {
+                        "id": 3618971,
+                        "name": "Future",
+                        "type": "FEATURED",
+                        "picture": "3324ec71-68a0-4114-abe8-6fe56d01c927"
+                    }
+                ],
+                "album": {
+                    "id": 35193866,
+                    "title": "Unapologetic (Deluxe)",
+                    "cover": "956f9be9-c1f3-473d-9e53-5547ec2380b1",
+                    "vibrantColor": "#d7b57a",
+                    "videoCover": null,
+                    "releaseDate": "2012-11-19"
+                },
+                "mixes": {
+                    "TRACK_MIX": "001d25b7568f156550a3fd8fa41e52"
+                },
+                "dateAdded": "2024-04-13T23:52:33.188+0000",
+                "index": 600000,
+                "itemUuid": "b823d2f8-b40c-488d-8c5b-cd962121218d"
+            },
+            "type": "track",
+            "cut": null
+        },
+        {
+            "item": {
+                "id": 119234447,
+                "title": "Under The Influence",
+                "duration": 184,
+                "replayGain": -10.08,
+                "peak": 0.943952,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "djReady": true,
+                "stemReady": false,
+                "streamStartDate": "2019-10-04T00:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 3,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 81,
+                "copyright": "(P) 2019 Chris Brown Entertainment, LLC, under exclusive license to RCA Records.",
+                "bpm": 117,
+                "description": null,
+                "url": "http://www.tidal.com/track/119234447",
+                "isrc": "USRC11902743",
+                "editable": false,
+                "explicit": true,
+                "audioQuality": "HI_RES",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "HIRES_LOSSLESS",
+                        "MQA"
+                    ]
+                },
+                "artist": {
+                    "id": 3261,
+                    "name": "Chris Brown",
+                    "type": "MAIN",
+                    "picture": "7fb0547f-51a0-4ca1-9cf1-f7cee74aeaa6"
+                },
+                "artists": [
+                    {
+                        "id": 3261,
+                        "name": "Chris Brown",
+                        "type": "MAIN",
+                        "picture": "7fb0547f-51a0-4ca1-9cf1-f7cee74aeaa6"
+                    }
+                ],
+                "album": {
+                    "id": 119234444,
+                    "title": "Indigo (Extended)",
+                    "cover": "ea593958-8d0b-441d-adfa-06e770d141e5",
+                    "vibrantColor": "#d3b0ea",
+                    "videoCover": null,
+                    "releaseDate": "2019-06-28"
+                },
+                "mixes": {
+                    "TRACK_MIX": "001f7f4dee36082cb1d088792d5243"
+                },
+                "dateAdded": "2024-04-14T01:18:50.089+0000",
+                "index": 650000,
+                "itemUuid": "b1e3f2cd-b04f-47af-82df-97dfde36c7f9"
+            },
+            "type": "track",
+            "cut": null
+        },
+        {
+            "item": {
+                "id": 70785026,
+                "title": "Solo",
+                "duration": 266,
+                "replayGain": -8.05,
+                "peak": 0.865587,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "djReady": true,
+                "stemReady": false,
+                "streamStartDate": "2017-02-24T00:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 16,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 70,
+                "copyright": "(P) 2017 Epic Records, a division of Sony Music Entertainment with A1 / Freebandz",
+                "bpm": 111,
+                "description": null,
+                "url": "http://www.tidal.com/track/70785026",
+                "isrc": "USSM11701733",
+                "editable": false,
+                "explicit": true,
+                "audioQuality": "HI_RES",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "HIRES_LOSSLESS",
+                        "MQA"
+                    ]
+                },
+                "artist": {
+                    "id": 3618971,
+                    "name": "Future",
+                    "type": "MAIN",
+                    "picture": "3324ec71-68a0-4114-abe8-6fe56d01c927"
+                },
+                "artists": [
+                    {
+                        "id": 3618971,
+                        "name": "Future",
+                        "type": "MAIN",
+                        "picture": "3324ec71-68a0-4114-abe8-6fe56d01c927"
+                    }
+                ],
+                "album": {
+                    "id": 70785010,
+                    "title": "HNDRXX",
+                    "cover": "b588f8b7-2a0e-458b-9036-b22338522535",
+                    "vibrantColor": "#FFFFFF",
+                    "videoCover": null,
+                    "releaseDate": "2017-02-24"
+                },
+                "mixes": {
+                    "TRACK_MIX": "001e967a075eb580d6ab51758e72ad"
+                },
+                "dateAdded": "2024-04-25T05:36:19.463+0000",
+                "index": 750000,
+                "itemUuid": "9719f53d-4cf5-43de-8dad-daaba1b1578a"
+            },
+            "type": "track",
+            "cut": null
+        },
+        {
+            "item": {
+                "id": 106151404,
+                "title": "Drip or Drown",
+                "duration": 126,
+                "replayGain": -7.5,
+                "peak": 0.997162,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "djReady": true,
+                "stemReady": false,
+                "streamStartDate": "2019-03-19T00:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 2,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 57,
+                "copyright": "℗ 2017 Young Stoner Life Records exclusively distributed by 300 Entertainment",
+                "bpm": 118,
+                "description": null,
+                "url": "http://www.tidal.com/track/106151404",
+                "isrc": "QZ5FA1751845",
+                "editable": false,
+                "explicit": true,
+                "audioQuality": "HI_RES",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "MQA"
+                    ]
+                },
+                "artist": {
+                    "id": 6120065,
+                    "name": "Gunna",
+                    "type": "MAIN",
+                    "picture": "87111570-e165-47db-8b72-6140306a4646"
+                },
+                "artists": [
+                    {
+                        "id": 6120065,
+                        "name": "Gunna",
+                        "type": "MAIN",
+                        "picture": "87111570-e165-47db-8b72-6140306a4646"
+                    }
+                ],
+                "album": {
+                    "id": 106151402,
+                    "title": "Drip or Drown",
+                    "cover": "4fb7f948-ccba-4ecc-af66-d191e7471942",
+                    "vibrantColor": "#aedbdc",
+                    "videoCover": null,
+                    "releaseDate": "2017-11-30"
+                },
+                "mixes": {
+                    "TRACK_MIX": "001f17fa839347f25e49729118c0dd"
+                },
+                "dateAdded": "2024-04-25T05:50:26.641+0000",
+                "index": 850000,
+                "itemUuid": "8b1de532-b72c-47c5-bb30-65d6e8b68862"
+            },
+            "type": "track",
+            "cut": null
+        },
+        {
+            "item": {
+                "id": 104230320,
+                "title": "Yao Ming",
+                "duration": 150,
+                "replayGain": -8.94,
+                "peak": 0.997345,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "djReady": true,
+                "stemReady": false,
+                "streamStartDate": "2019-02-22T00:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 6,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 41,
+                "copyright": "℗ 2019 Young Stoner Life Records / 300 Entertainment",
+                "bpm": null,
+                "description": null,
+                "url": "http://www.tidal.com/track/104230320",
+                "isrc": "QMCE31902020",
+                "editable": false,
+                "explicit": true,
+                "audioQuality": "HI_RES",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "MQA"
+                    ]
+                },
+                "artist": {
+                    "id": 6120065,
+                    "name": "Gunna",
+                    "type": "MAIN",
+                    "picture": "87111570-e165-47db-8b72-6140306a4646"
+                },
+                "artists": [
+                    {
+                        "id": 6120065,
+                        "name": "Gunna",
+                        "type": "MAIN",
+                        "picture": "87111570-e165-47db-8b72-6140306a4646"
+                    }
+                ],
+                "album": {
+                    "id": 104230314,
+                    "title": "Drip or Drown 2",
+                    "cover": "80d7a648-bb98-4940-91f1-00377882cb42",
+                    "vibrantColor": "#8ccbd9",
+                    "videoCover": null,
+                    "releaseDate": "2019-02-22"
+                },
+                "mixes": {
+                    "TRACK_MIX": "0011e0d04bcc89a7142dfd7952df62"
+                },
+                "dateAdded": "2024-04-25T05:50:46.077+0000",
+                "index": 950000,
+                "itemUuid": "938f3bbc-633e-4696-b26d-ab0dd61bef35"
+            },
+            "type": "track",
+            "cut": null
+        },
+        {
+            "item": {
+                "id": 104230321,
+                "title": "Idk Why",
+                "duration": 200,
+                "replayGain": -8.94,
+                "peak": 0.997375,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "djReady": true,
+                "stemReady": false,
+                "streamStartDate": "2019-02-22T00:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 7,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 43,
+                "copyright": "℗ 2019 Young Stoner Life Records",
+                "bpm": null,
+                "description": null,
+                "url": "http://www.tidal.com/track/104230321",
+                "isrc": "QMCE31902021",
+                "editable": false,
+                "explicit": true,
+                "audioQuality": "HI_RES",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "MQA"
+                    ]
+                },
+                "artist": {
+                    "id": 6120065,
+                    "name": "Gunna",
+                    "type": "MAIN",
+                    "picture": "87111570-e165-47db-8b72-6140306a4646"
+                },
+                "artists": [
+                    {
+                        "id": 6120065,
+                        "name": "Gunna",
+                        "type": "MAIN",
+                        "picture": "87111570-e165-47db-8b72-6140306a4646"
+                    }
+                ],
+                "album": {
+                    "id": 104230314,
+                    "title": "Drip or Drown 2",
+                    "cover": "80d7a648-bb98-4940-91f1-00377882cb42",
+                    "vibrantColor": "#8ccbd9",
+                    "videoCover": null,
+                    "releaseDate": "2019-02-22"
+                },
+                "mixes": {
+                    "TRACK_MIX": "001d06f51bc2172a7d45f9bb9e9822"
+                },
+                "dateAdded": "2024-04-25T05:50:52.624+0000",
+                "index": 1050000,
+                "itemUuid": "a85b83ca-848b-4e60-9b22-f1c020c79d0a"
+            },
+            "type": "track",
+            "cut": null
+        },
+        {
+            "item": {
+                "id": 104612418,
+                "title": "Wild Wild West",
+                "duration": 236,
+                "replayGain": -8.59,
+                "peak": 0.997345,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "djReady": true,
+                "stemReady": false,
+                "streamStartDate": "2019-02-22T01:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 6,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 51,
+                "copyright": "Quality Control Music/Motown Records; ℗ 2019 Quality Control Music, LLC, under exclusive license to UMG Recordings, Inc.",
+                "bpm": null,
+                "description": null,
+                "url": "http://www.tidal.com/track/104612418",
+                "isrc": "USUG11802619",
+                "editable": false,
+                "explicit": true,
+                "audioQuality": "HI_RES",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "MQA"
+                    ]
+                },
+                "artist": {
+                    "id": 3958646,
+                    "name": "Offset",
+                    "type": "MAIN",
+                    "picture": "4ff82675-f0bc-4aea-97f3-4a4446e965d5"
+                },
+                "artists": [
+                    {
+                        "id": 3958646,
+                        "name": "Offset",
+                        "type": "MAIN",
+                        "picture": "4ff82675-f0bc-4aea-97f3-4a4446e965d5"
+                    },
+                    {
+                        "id": 6120065,
+                        "name": "Gunna",
+                        "type": "FEATURED",
+                        "picture": "87111570-e165-47db-8b72-6140306a4646"
+                    }
+                ],
+                "album": {
+                    "id": 104612410,
+                    "title": "FATHER OF 4",
+                    "cover": "06a50611-e435-4c35-8c0f-7047ba80d408",
+                    "vibrantColor": "#c7b368",
+                    "videoCover": null,
+                    "releaseDate": "2019-02-22"
+                },
+                "mixes": {
+                    "TRACK_MIX": "001a8d65af0605e55821b61f028644"
+                },
+                "dateAdded": "2024-04-25T06:26:54.603+0000",
+                "index": 1150000,
+                "itemUuid": "5e3cffe2-dc17-488a-bb20-5ddeb6c6392e"
+            },
+            "type": "track",
+            "cut": null
+        },
+        {
+            "item": {
+                "id": 269265868,
+                "title": "Wus Good / Curious",
+                "duration": 213,
+                "replayGain": -9.77,
+                "peak": 0.989075,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "djReady": true,
+                "stemReady": false,
+                "streamStartDate": "2022-12-30T00:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 8,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 63,
+                "copyright": "2013 OVO Sound under exclusive license to Santa Anna Label Group",
+                "bpm": 126,
+                "description": null,
+                "url": "http://www.tidal.com/track/269265868",
+                "isrc": "USWB11302162",
+                "editable": false,
+                "explicit": true,
+                "audioQuality": "LOSSLESS",
+                "audioModes": [
+                    "STEREO",
+                    "DOLBY_ATMOS"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "DOLBY_ATMOS"
+                    ]
+                },
+                "artist": {
+                    "id": 5006417,
+                    "name": "PARTYNEXTDOOR",
+                    "type": "MAIN",
+                    "picture": "c107cf97-f9c4-417a-b3f2-6338723cbcc1"
+                },
+                "artists": [
+                    {
+                        "id": 5006417,
+                        "name": "PARTYNEXTDOOR",
+                        "type": "MAIN",
+                        "picture": "c107cf97-f9c4-417a-b3f2-6338723cbcc1"
+                    }
+                ],
+                "album": {
+                    "id": 269265860,
+                    "title": "PARTYNEXTDOOR",
+                    "cover": "69a6ecb1-5019-46da-b4a9-d6e172f177b7",
+                    "vibrantColor": "#d8c351",
+                    "videoCover": null,
+                    "releaseDate": "2013-07-01"
+                },
+                "mixes": {
+                    "TRACK_MIX": "0013a55327579feaa6092a89c8867a"
+                },
+                "dateAdded": "2024-04-25T08:57:10.408+0000",
+                "index": 1250000,
+                "itemUuid": "f28ea40b-6ae8-45f7-80f7-54bb7df8ee21"
+            },
+            "type": "track",
+            "cut": null
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{# 
+	{% include "@component-list-item--articles" with {
+			"link": {
+				"aria_label": "",
+				"label": "Link Text",
+				"url": "#",
+				"icon": ""
+			},
+			"title": "Card title",
+			"text": "Some quick example text to build on the card title and make up the bulk of the card's content."
+		} 
+	%}
+#}
+<div class="card list-item list-item--{{ type }} d-flex flex-row {{ classes }}">
+
+	{% if image %}
+		{% render "@content-picture" with {
+			classes:'aspect-ratio-square rounded-circle w-avatar-sm',
+			src:'placeholder'
+		}  %}
+	{% endif %}
+
+	<div class="card-body py-0 px-0 w-100">
+
+		<h4 class="card-title mb-2">{{ title }}</h4>
+
+		{% if description %}
+			<p class="card-text font-secondary fw-light small d-none d-lg-block">{{ description }}</p>
+		{% endif %}
+
+		{% if meta.author %}
+			<span class="card-author font-secondary fw-bold text-uppercase text-secondary fs-meta">
+				{% render "@partials-author" with meta.author %}
+			</span>
+		{% endif %}
+
+	</div>
+</div>

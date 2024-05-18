@@ -1,0 +1,7 @@
+{% render "@layouts-header" with header %}
+<main>
+	<section class="container my-5">
+		<h1>{{ page.title}}</h1>
+		{% render "@component-list--articles" with articles_list %}
+	</section>
+</main>

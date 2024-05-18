@@ -1,0 +1,27 @@
+{#
+	{% render "@components-blockquote" with {
+		classes: '',
+		quote: 'A well-known quote, contained in a blockquote element.',
+		quote_author: 'Someone famous in',
+		quote_author_title: 'Source Title'
+	} %}
+#}
+{% if quote and quote_author %}
+	<figure class="figure-blockquote {{ classes }}">
+		<blockquote class="blockquote">
+			<p>{{ quote }}</p>
+		</blockquote>
+		{% if quote_author %}
+			<figcaption class="blockquote-footer">
+				{{ quote_author }}
+				{% if quote_author_title %}
+					<cite title="{{ quote_author_title }}">{{ quote_author_title }}</cite>
+				{% endif %}
+			</figcaption>
+		{% endif %}
+	</figure>
+{% else %}
+	<blockquote class="blockquote {{ classes }}">
+		<p>{{ quote }}</p>
+	</blockquote>
+{% endif %}

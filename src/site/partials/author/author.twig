@@ -1,0 +1,25 @@
+<div class="author">
+	{% if prefix and avatar == false %}
+		<span class="prefix">
+			{{ prefix }}
+		</span>
+	{% endif %}
+	{% if avatar %}
+		{% render "@content-picture" with {
+			size:'avatar',
+			classes:''
+		} %}
+	{% endif %}
+	{% if url %}
+		{% render '@partials-link' with {
+			aria_label: name,
+			classes:'',
+			icon: '',
+			title: name,
+			url: url ?: '#',
+			rel:'author'
+		} %}
+	{% else %}
+		<span>{{ name }}</span>
+	{% endif %}
+</div>
