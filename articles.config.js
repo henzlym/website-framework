@@ -36,7 +36,7 @@ const articles = [
 			alt_text:
 				'elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis',
 			credit: 'Ilario Dayly',
-			src: '#',
+			src: 'placeholder',
 			loading: 'lazy',
 			size: 'post-thumbnail'
 		},
@@ -82,7 +82,7 @@ const articles = [
 			alt_text:
 				'integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum',
 			credit: 'Menard Marcham',
-			src: '#',
+			src: 'placeholder',
 			loading: 'eager',
 			size: 'post-thumbnail'
 		},
@@ -128,7 +128,7 @@ const articles = [
 			alt_text:
 				'quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in',
 			credit: 'Wanda Cadney',
-			src: '#',
+			src: 'placeholder',
 			loading: 'lazy',
 			size: 'post-thumbnail'
 		},
@@ -174,7 +174,7 @@ const articles = [
 			alt_text:
 				'habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla',
 			credit: 'Lissa Rawdall',
-			src: '#',
+			src: 'placeholder',
 			loading: 'lazy',
 			size: 'post-thumbnail'
 		},
@@ -219,7 +219,7 @@ const articles = [
 			id: 1,
 			alt_text: 'vel accumsan tellus nisi eu orci mauris lacinia sapien quis',
 			credit: 'Alley Tammadge',
-			src: '#',
+			src: 'placeholder',
 			loading: 'eager',
 			size: 'post-thumbnail'
 		},
@@ -265,7 +265,7 @@ const articles = [
 			alt_text:
 				'pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit',
 			credit: 'Alexis Culshew',
-			src: '#',
+			src: 'placeholder',
 			loading: 'lazy',
 			size: 'post-thumbnail'
 		},
@@ -311,7 +311,7 @@ const articles = [
 			alt_text:
 				'posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed',
 			credit: 'Braden Humphrey',
-			src: '#',
+			src: 'placeholder',
 			loading: 'eager',
 			size: 'post-thumbnail'
 		},
@@ -357,7 +357,7 @@ const articles = [
 			alt_text:
 				'fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa',
 			credit: 'Kiah Windress',
-			src: '#',
+			src: 'placeholder',
 			loading: 'eager',
 			size: 'post-thumbnail'
 		},
@@ -397,7 +397,7 @@ const articles = [
 			alt_text:
 				'convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim',
 			credit: 'Eddie Bulch',
-			src: '#',
+			src: 'placeholder',
 			loading: 'lazy',
 			size: 'post-thumbnail'
 		},
@@ -443,7 +443,7 @@ const articles = [
 			alt_text:
 				'integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus',
 			credit: 'Worth Bothram',
-			src: '#',
+			src: 'placeholder',
 			loading: 'eager',
 			size: 'post-thumbnail'
 		},
@@ -484,7 +484,7 @@ const articles = [
 			alt_text:
 				'neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus',
 			credit: 'Crin Hellicar',
-			src: '#',
+			src: 'placeholder',
 			loading: 'eager',
 			size: 'post-thumbnail'
 		},
@@ -525,7 +525,7 @@ const articles = [
 			alt_text:
 				'nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet',
 			credit: 'Izaak Suscens',
-			src: '#',
+			src: 'placeholder',
 			loading: 'lazy',
 			size: 'post-thumbnail'
 		},
@@ -566,7 +566,7 @@ const articles = [
 			alt_text:
 				'lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at',
 			credit: 'Madelina Hullot',
-			src: '#',
+			src: 'placeholder',
 			loading: 'eager',
 			size: 'post-thumbnail'
 		},

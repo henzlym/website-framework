@@ -6,13 +6,10 @@
 
 		<li class="{% if type != 'list' %}list-group-item {% endif %} {{ type }}-group-item {{ item_classes }}">
 			{% if type == 'articles-image' %}
-				{% render "@component-list-item--article-image" with {
-					item:item,
-					read_more:read_more
-				} %}
+				{% render "@component-list-item--article-image" with item %}
 			{% elseif type == 'articles-headline' %}
 				{% render "@component-list-item--article-headline" with item %}
-			{% elseif type == 'article' %}
+			{% elseif type == 'articles' %}
 				{% render "@component-list-item--article" with item %}
 			{% elseif type == 'user' %}
 				{% render "@component-list-item--user" with item %}

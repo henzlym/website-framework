@@ -1,0 +1,11 @@
+{% if title %}
+	<h2 class="{% if type != 'list' %}list-group-title {% endif %}list-group--{{ type }}-group-title {{ title_classes }}">{{ title }}</h2>
+{% endif %}
+<ul class="{% if type != 'list' %}list-group {% endif %}list-group--{{ type }}-group {{ classes }}">
+	{% for item in items %}
+
+		<li class="{% if type != 'list' %}list-group-item {% endif %} {{ type }}-group-item {{ item_classes }}">
+			{% render "@component-list-item--article" with item %}
+		</li>
+	{% endfor %}
+</ul>

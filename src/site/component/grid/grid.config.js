@@ -7,7 +7,7 @@ module.exports = {
 	context: {
 		component_name: 'component-card--image',
 		classes: '',
-		columns: '3',
+		row_classes: '3',
 		items: articles,
 		title: 'Grid Title',
 		type: '3'
@@ -16,28 +16,28 @@ module.exports = {
 		{
 			name: 'One columns',
 			context: {
-				columns: '1',
+				row_classes: 'row-cols-1',
 				items: articles.slice(0, 3)
 			}
 		},
 		{
 			name: 'Two columns',
 			context: {
-				columns: '2',
+				row_classes: 'row-cols-md-2',
 				items: articles.slice(0, 4)
 			}
 		},
 		{
 			name: 'Three columns',
 			context: {
-				columns: '3',
+				row_classes: 'row-cols-md-3',
 				items: articles.slice(0, 3)
 			}
 		},
 		{
 			name: 'Four columns',
 			context: {
-				columns: '4',
+				row_classes: 'row-cols-md-4',
 				items: articles.slice(0, 4)
 			}
 		}

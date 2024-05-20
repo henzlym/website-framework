@@ -9,9 +9,10 @@ module.exports = [
 			url: 'https://thegrio.com'
 		},
 		image: {
-			src: 'portfolio/thegrio-0.png',
+			src: 'portfolio/clients/thegrio/logo.jpg',
 			sources: ''
-		}
+		},
+		categories: ''
 	},
 	{
 		title: 'TheWrap',
@@ -23,9 +24,10 @@ module.exports = [
 			url: 'https://thewrap.com'
 		},
 		image: {
-			src: 'portfolio/thewrap-0.png',
+			src: 'portfolio/clients/thewrap/logo.jpg',
 			sources: ''
-		}
+		},
+		categories: ''
 	},
 	{
 		title: 'City A.M.',
@@ -35,23 +37,25 @@ module.exports = [
 			classes: 'btn-outline-light'
 		},
 		image: {
-			src: 'portfolio/cityam-0.png',
+			src: 'portfolio/clients/cityam/logo.jpg',
 			sources: ''
-		}
+		},
+		categories: ''
 	},
 	{
-		title: 'TheGrio',
+		title: 'Maxim',
 		description:
-			'TheGrio, styled as thegrio, is an American television network and website with news, opinion, entertainment and video content geared toward African-Americans.',
+			"Maxim is an international men's magazine, devised and launched in the UK in 1995, but based in New York City since 1997, and prominent for its photography of actors, singers, and female models whose careers are at a current peak. Maxim has a circulation of about 9 million readers each month",
 		link: {
 			classes: 'btn-outline-light',
 			icon: 'arrow-right-short',
-			url: 'https://thegrio.com'
+			url: 'https://maxim.com'
 		},
 		image: {
-			src: 'portfolio/thegrio-0.png',
+			src: 'portfolio/clients/maxim/logo.jpg',
 			sources: ''
-		}
+		},
+		categories: ''
 	},
 	{
 		title: 'Sportsnaut',
@@ -61,8 +65,9 @@ module.exports = [
 			classes: 'btn-outline-light'
 		},
 		image: {
-			src: 'portfolio/sportsnaut-0.png',
+			src: 'portfolio/clients/sportsnaut/logo.jpg',
 			sources: ''
-		}
+		},
+		categories: ''
 	}
 ];

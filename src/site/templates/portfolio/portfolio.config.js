@@ -1,5 +1,5 @@
 const config = require(`@root/site.config.json`);
-const image_sizes = require(`@root/image-sizes.config.js`);
+const projects = require(`@root/projects.config.js`);
 
 module.exports = {
 	label: 'Portfolio',
@@ -21,7 +21,7 @@ module.exports = {
 					navigation: {
 						classes: 'ms-auto',
 						id: 'site-navigation',
-						items: config.menus.primary,
+						items: [],
 						item_class: '',
 						js_class: '',
 						link_class: '',
@@ -67,10 +67,13 @@ module.exports = {
 		},
 		articles_list: {
 			classes: 'row-gap-5',
-			title: '',
+			title: 'Works',
+			title_classes: 'h1',
+			items: projects,
 			read_more: {
 				title: 'View website'
-			}
+			},
+			type: 'articles-image'
 		},
 		related_articles: {
 			component_name: 'component-card--image',

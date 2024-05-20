@@ -45,7 +45,7 @@ module.exports = {
 			context: {
 				item: {
 					image: {
-						classes: 'aspect-ratio-md-widescreen'
+						classes: 'aspect-ratio-widescreen'
 					}
 				}
 			}

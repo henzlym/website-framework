@@ -1,5 +1,5 @@
 {# 
-	{% include "@component-card--feature" with {
+	{% include "@component-card--image-description" with {
 			"link": {
 				"aria_label": "",
 				"label": "Link Text",
@@ -14,16 +14,17 @@
 <div class="card card-image {{ classes }}">
 
 	<div class="card-header">
-		{% if item.categories %}
+		{% if categories %}
 			{% render '@partials-link' with {
 				classes:'card-tag',
 				icon: '',
-				title: item.categories,
+				title: categories,
+				rel:'tag'
 			} %}
 		{% endif %}
 	</div>
 
-	{% if item.image %}
+	{% if image %}
 		{% render "@content-picture" with {
 			classes:'aspect-ratio-md-widescreen'
 		}  %}
@@ -31,15 +32,15 @@
 
 	<div class="card-body px-sm-0">
 
-		<h5 class="card-title">{{ item.title }}</h5>
+		<h5 class="card-title">{{ title }}</h5>
 
-		{% if item.description %}
-			<p class="card-text">{{ item.description }}</p>
+		{% if description %}
+			<p class="card-text">{{ description }}</p>
 		{% endif %}
 
-		{% if item.meta.author %}
+		{% if meta.author %}
 			<span class="card-author">
-				{% render "@partials-author" with item.meta.author %}
+				{% render "@partials-author" with meta.author %}
 			</span>
 		{% endif %}
 
