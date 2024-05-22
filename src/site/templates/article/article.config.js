@@ -47,6 +47,61 @@ module.exports = {
 			classes: 'd-flex flex-column row-gap-3',
 			title: 'Related Articles'
 		},
+		code_one: {
+			content: `
+function buildComponentStyles() {
+	var files = [
+		'./build/components/*.html'
+	];
+
+	// Go through each html build file
+	// Create a new css file using the site.css contents and renaming it the same as the current html build file
+	// Extract the unused css from that new css file
+	// Export the purged css file into the build folder
+	return gulp
+		.src(files)
+		.pipe(
+			tap(async function (file) {
+				const siteCss = fs.readFileSync(paths.css.public, 'utf8');
+				file.contents = Buffer.from(siteCss);
+			})
+		)
+		.pipe(
+			rename({
+				extname: '.css'
+			})
+		)
+		.pipe(gulp.dest('./components'))
+		.on('error', (err) => console.error('Error during purgecss task:', err));
+}
+			`
+		},
+		code_two: {
+			content: `
+function purgeComponentStyles() {
+	var files = fs.readdirSync('./public/components');
+	return Promise.all(
+		files.map((task) => {
+			return new Promise((resolve, reject) => {
+				const filename = task.replace('.css', '');
+				return gulp
+					.src('./public/components/{filename}.css')
+					.pipe(
+						purgecss({
+							content: [
+								'/Users/henzlymeghie/Development/website-framework/framework/src/build/components/preview/{filename}.html'
+							],
+							variables: true
+						})
+					)
+					.pipe(gulp.dest('./dist/components'))
+					.on('end', () => resolve());
+			});
+		})
+	);
+}
+			`
+		},
 		wysiwyg_one: {
 			content:
 				"<h2>Unraveling the Mystery: Templates vs. Layouts in Web Design</h2><p>Welcome to our deep dive into the often-confused terms in web development—templates and layouts. Whether you're a seasoned designer or a newbie to the world of web development, understanding these foundational elements can transform your approach to website creation. Today, we’re going to explore what templates and layouts are, and how they serve different purposes in the design process.</p>"

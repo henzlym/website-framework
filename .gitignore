@@ -5,3 +5,5 @@ dist
 .site*
 .scss*
 *.zip
+
+src/public/images/portfolio/

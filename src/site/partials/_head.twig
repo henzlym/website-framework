@@ -11,5 +11,12 @@
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'> {% for style in config.assets.styles %}
 	<link rel="stylesheet" href="{{ style }}" type="text/css">
 {% endfor %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/monokai.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+<script>
+	hljs.highlightAll();
+</script>
 <title>{{ _target.label }}
 	| My Component Library</title>
