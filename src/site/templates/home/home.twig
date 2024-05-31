@@ -1,0 +1,50 @@
+<main class="bg-body-secondary">
+	<div class="preheader d-flex align-items-start justify-content-between mb-5">
+		<p class="fw-bold">{{ report.id }}</p>
+		<small>{{ report.timestamp|date('F j, Y, g:i a') }}</small>
+	</div>
+	<section class="mb-5">
+		<h2 class="mb-4">Performance Report</h3>
+		<ul class="nav flex-nowrap column-gap-3 mb-5" id="myTab" role="tablist">
+			{% for panel in panels %}
+				<li class="nav-item" role="presentation">
+					<button class="nav-link p-0 text-dark {% if panel.id == 'performance' %} active{% endif %}" id="{{ panel.id }}-tab" data-bs-toggle="tab" data-bs-target="#{{ panel.id }}-tab-pane" type="button" role="tab" aria-controls="{{ panel.id }}-tab-pane" {% if panel.id == 'performance' %} aria-selected="true" {% endif %}>
+						<div class="d-flex align-items-center justify-content-start column-gap-2 shadow-sm px-3 py-3 bg-white">
+							<h5 class="mb-0 fw-light me-3">{{ panel.title }}</h5>
+							<span class="badge small {{ panel.scoreClassName ?: '' }}">{{ panel.score }}</span>
+						</div>
+
+					</button>
+				</li>
+			{% endfor %}
+		</ul>
+		<div class="tab-content bg-white px-3 py-3" id="myTabContent">
+			{% for panel in panels %}
+				<div class="tab-pane fade{% if panel.id == 'performance' %} show active{% endif %}" id="{{ panel.id }}-tab-pane" role="tabpanel" aria-labelledby="{{ panel.id }}-tab" tabindex="{{ loop.index0 }}">
+					<p class="">{{ panel.description }}</p>
+					<div class="accordion" id="accordionExample">
+						{% for audit in panel.data.audits %}
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#audit-{{ audit.id }}" aria-expanded="false" aria-controls="audit-{{ audit.id }}">
+										{{ audit.title }}
+										{% if audit.displayValue %}
+											-
+											<span class="ms-1 text-{{ audit.scoreCategory }}">{{ audit.displayValue }}</span>
+										{% endif %}
+
+									</button>
+								</h2>
+								<div id="audit-{{ audit.id }}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										{{ audit.description }}
+									</div>
+								</div>
+							</div>
+						{% endfor %}
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</section>
+</main>

@@ -23,6 +23,7 @@
     "@frctl/twig": "^1.2.13",
     "@popperjs/core": "^2.11.8",
     "autoprefixer": "^10.4.16",
+    "axios": "^1.7.2",
     "babel-loader": "^9.1.3",
     "css-loader": "^6.9.0",
     "dom-parser": "^1.1.5",
@@ -49,12 +50,14 @@
     "postcss-plugin": "^1.0.0",
     "purgecss": "^6.0.0",
     "purgecss-webpack-plugin": "^6.0.0",
+    "request-promise-native": "^1.0.9",
     "sass": "^1.69.5",
     "sass-loader": "^14.2.1",
     "style-loader": "^4.0.0",
     "twig-markdown": "^1.0.1",
     "webpack-stream": "^7.0.0",
-    "wepack": "^0.0.1"
+    "wepack": "^0.0.1",
+    "xhr2": "*"
   },
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
